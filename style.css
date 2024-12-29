@@ -1,0 +1,94 @@
+a{
+    text-decoration: none;
+}
+.section-space-md{
+    padding: 100px 0px;
+}
+.section-space-lg{
+    padding: 150px 0px;
+}
+.bg-gray{
+    background: #f2f2f2;
+}
+
+.banner-left-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-left-content h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.section-title h3{
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.content-wrap {
+    width: 90%;
+}
+.content-wrap h3 {
+    font-size: 2.5rem;
+}
+.contact-left {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.contact-right {
+    height: 700px;
+    background: #0d6efd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: 1px solid #0d6efd;
+    border-radius: 13px;
+    height: 60px;
+    width: 100%;
+}
+.subscribe input {
+    border: none;
+    height: 55px;
+    padding: 0px 15px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0d6efd;
+    border-radius: 13px;
+    width: 100%;
+}
+.subscribe input:focus{
+   outline: none;
+}
+.subscribe button {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    padding: 10px 15px;
+    height: 100%;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border: none;
+    background: #0d6efd;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.subscribe svg {
+    width: 40px;
+    margin-right: 10px;
+}
